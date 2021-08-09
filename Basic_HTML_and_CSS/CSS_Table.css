@@ -1,0 +1,4 @@
+table {border: 5px dotted black;}
+td:hover {background-color: aquamarine; color: black;}
+tr, th {background-color: yellow; color: purple;}
+tr, td {background-color: DarkSeaGreen; color: white;}
