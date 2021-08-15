@@ -1,0 +1,119 @@
+.picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: saturate(3);
+    border-radius: 25%;
+    overflow: hidden;
+}
+
+.pic {
+    position: relative;
+    height: 75%;
+    width: 75%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgba(235, 137, 57, 0.945);
+}
+
+.pic-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5cm;
+    color: floralwhite;
+    text-align: center;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.pic:hover .pic-text {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+    background-color: rgba(112, 128, 144, 0.678);
+}
+
+.pic:hover {
+    border-color: seagreen;
+}
+
+.foot {
+    text-align: center;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.table-head {
+    background-color: cadetblue;
+}
+
+.table_1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-link:hover {
+    background-color: lightsalmon;
+}
+
+.row {
+    display: flex;
+    text-align: center;
+    max-width: 75%;
+    border: 1px solid rgba(235, 137, 57, 0.945);
+}
+
+.column {
+    flex: 50%;
+    text-align: center;
+    color: lightsteelblue;
+    height: 50%;
+    width: 50%;
+    border: 1px solid rgba(235, 137, 57, 0.945);
+}
+
+.container {
+    background-color: silver;
+}
+
+.container:hover {
+    background-color: rgb(107, 211, 154);
+}
+
+.paragraph {
+    color: black;
+    font-size: 2cm;
+    text-align: center;
+    opacity: 0;
+}
+
+.paragraph:hover {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.vid {
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+}
+
+.v-text {
+    position: relative;
+    transform: translate(0%, 200%);
+    font-size: 1.5cm;
+    color: floralwhite;
+    overflow: hidden;
+    z-index: 2;
+}
