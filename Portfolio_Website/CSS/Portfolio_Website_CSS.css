@@ -1,47 +1,69 @@
-html {
-    background-color: rgb(217, 240, 240);
+body {
+    margin: 0%;
 }
 
-#home {
-    background: url(../Images/mint-green.png) no-repeat 50% 50%;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+h2 {
+    color: rgb(255, 38, 0);
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 500;
+    text-decoration: underline currentColor;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-family: Perpetua, Rockwell Extra Bold;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#video_ {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    z-index: -1;
+}
+
+.Video_Text {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
     width: 100%;
-    display: block;
-    height: auto;
-    padding-top: 350px;
-    padding-bottom: 350px;
-    color: #fff;
-}
-
-.head-main {
-    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
-    font-variant: small-caps;
-    color: #fff;
-    letter-spacing: 5pt;
-    word-spacing: 21pt;
-    font-size: 4.5cm;
-    text-align: left;
-    font-family: Impact, sans-serif;
-    line-height: 2;
-    font-weight: 900;
-    border: 5px double rgb(122, 218, 189);
-    padding: 10px;
+    padding: 20px;
+    position: relative;
+    -webkit-animation: moveVideoText 5.75s;
+    animation: moveVideoText 5.75s;
 }
 
 .navbar {
-    background-color: rgb(156, 194, 196);
+    background-color: rgb(41, 22, 22);
+}
+
+.nav-item:hover {
+    background-color: red;
+    font-weight: bold;
+    text-decoration: underline currentColor;
 }
 
 .card {
-    border: 1px solid rgba(107, 252, 228, 0.5);
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+.container {
+    background-color: rgb(65, 66, 66);
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 2px solid red;
 }
 
 .contact-form {
@@ -52,11 +74,31 @@ html {
     border-radius: 7px;
 }
 
+.btn {
+    background-color: rgb(78, 40, 40);
+    color: red;
+    border: 1px red;
+}
+
+.btn:hover {
+    background-color: red;
+    color: rgb(255, 255, 255);
+    text-decoration: underline currentColor;
+}
+
 .badge {
     height: 25px;
     width: 100px;
     text-align: center;
     font-size: medium;
+    background-color: rgb(78, 40, 40);
+    color: red;
+    border: 1px red;
+}
+
+.badge:hover {
+    background-color: red;
+    color: rgb(255, 255, 255);
 }
 
 .foot {

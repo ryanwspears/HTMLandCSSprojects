@@ -13,44 +13,98 @@
   </head>
   <body>
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#home">Home</a>
-            <a class="nav-item nav-link active" href="#about">About</a>
-            <a class="nav-item nav-link active" href="#github">Github</a>
-            <a class="nav-item nav-link active" href="#contact">Contact</a>
-          </div>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light mb-4">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#home">Home</a>
+          <a class="nav-item nav-link active" href="#about">About</a>
+          <a class="nav-item nav-link active" href="#github">Github</a>
+          <a class="nav-item nav-link active" href="#contact">Contact</a>
         </div>
     </nav>
 
     <div id="home">
         <div class="container">
             <div class="text-center">
-                <span class="head-main">Ryan Spears</span>
+              <video autoplay muted loop id="video_">
+                <source src="./Videos/typing_vid.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
             </div>
         </div>
     </div>
 
-    <div class="container my-5" id="about">
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="./Images/headshot.jpg" alt="UNABLE TO LOAD IMAGE.">
-            <div class="card-body">
-              <p class="card-text">My name is Ryan Spears. I'm 20 years old, and I'm from Mount Olive, MS.</p>
-            </div>
-        </div>
+    <div class="Video_Text my-5">
+      <h1 class="white-text">Ryan Spears's Portfolio</h1>
+      <strong>
+          <p class="center">
+              <q>
+                People should pursue what they're passionate about.<br> 
+                That will make them happier than pretty much anything else.
+              </q>
+              <br> -Elon Musk
+              <br>
+              <br> My name is Ryan Spears. Welcome to my portfolio website. 
+          </p>
+      </strong>
     </div>
 
-    <div class="container my-5" id="github">
-        <div class="card">
-            <div class="card-body">
-              Be sure to check out my GitHub Account!<br>
-              <a href="https://github.com/ryanwspears" target="_blank" rel="noopener noreferrer" class="badge badge-info">Click Here!</a>
+
+
+    
+
+    <div class="container" id="about">
+      <div class="row">
+        <div class="col">
+          <div class="my-5">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./Images/headshot.jpg" alt="UNABLE TO LOAD IMAGE.">
             </div>
           </div>
+        </div>
+        <div class="col">
+          <div class="my-5" id="github">
+            <h2>About</h2>
+            <div class="card">
+                <div class="card-body">
+                  My name is Ryan Spears. I am a current student at The Tech Academy. Currently, I'm enrolled in the Software Developer Bootcamp.<br>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div id="contact">
+    
+
+    
+
+    
+
+    <div class="container my-5">
+      <div id="github">
+        <div class="row">
+          <div class="col">
+            <h2>Github</h2>
+            <div class="card">
+              <div class="card-body">
+                Be sure to check out my GitHub Account!<br>
+                <a href="https://github.com/ryanwspears" target="_blank" rel="noopener noreferrer" class="badge">Click Here!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="./Images/github-logo.png" alt="UNABLE TO LOAD IMAGE.">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <div class="container" id="contact">
+      <h2>Contact</h2>
         <form class="contact-form">
             <div class="form-row my-3">
               <div class="col">
