@@ -1,5 +1,5 @@
 # HTMLandCSSprojects
-This is a repo for HTML and CSS projects from The Tech Academy.
+This is a display of websites that I created using HTML, CSS, and Bootstrap 4.
 
 ## Projects
 - [Space Station Site](https://github.com/ryanwspears/HTMLandCSSprojects/tree/main/Website)
