@@ -1,7 +1,7 @@
 # HTMLandCSSprojects
 This is a repo for HTML and CSS projects from The Tech Academy.
 
-##Projects
+## Projects
 - [Space Station Site](https://github.com/ryanwspears/HTMLandCSSprojects/tree/main/Website)
 - [Movie Theater Site](https://github.com/ryanwspears/HTMLandCSSprojects/tree/main/Bootstrap4_Project)
 - [Portfolio Site](https://github.com/ryanwspears/HTMLandCSSprojects/tree/main/Portfolio_Website)
