@@ -1,5 +1,11 @@
-body {
-    margin: 0%;
+html {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: Perpetua, Rockwell Extra Bold;
+    font-size: 5vw;
 }
 
 h2 {
@@ -10,15 +16,11 @@ h2 {
     text-decoration: underline currentColor;
 }
 
-h1 {
-    text-align: center;
-}
-
 p {
     font-family: Perpetua, Rockwell Extra Bold;
     text-align: center;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 2vw;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -49,6 +51,7 @@ p {
     background-color: red;
     font-weight: bold;
     text-decoration: underline currentColor;
+    cursor: pointer;
 }
 
 .card {
@@ -58,11 +61,8 @@ p {
     text-align: center;
 }
 
-.container {
+.contain {
     background-color: rgb(65, 66, 66);
-    width: 100%;
-    padding-top: 5%;
-    padding-bottom: 5%;
     border: 2px solid red;
 }
 
@@ -76,8 +76,9 @@ p {
 
 .btn {
     background-color: rgb(78, 40, 40);
-    color: red;
+    color: rgb(255, 255, 255);
     border: 1px red;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -87,13 +88,14 @@ p {
 }
 
 .badge {
-    height: 25px;
-    width: 100px;
+    height: 35px;
+    width: 150px;
     text-align: center;
     font-size: medium;
     background-color: rgb(78, 40, 40);
-    color: red;
+    color: rgb(255, 255, 255);
     border: 1px red;
+    cursor: pointer;
 }
 
 .badge:hover {
@@ -103,4 +105,15 @@ p {
 
 .foot {
     text-align: center;
+    bottom: 1.75vw;
+}
+
+#btnCon {
+    position: fixed;
+    bottom: 1.75vw; 
+    right: 1vw; 
+    width: 10vw;
+    height: 3vw;
+    border: solid black;
+    cursor: pointer;
 }
