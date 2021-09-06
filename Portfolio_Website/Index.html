@@ -11,9 +11,14 @@
     <title>Ryan Spears</title>
 
     <script src="./JS/Portfolio_Website_JS.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
   </head>
   <body>
-
+    <!--Navigation Bar-->
     <nav class="navbar fixed-top navbar-expand-lg mb-4">
         <div class="navbar-nav">
           <a class="nav-item nav-link active" style="color: #fff;" href="#home">Home</a>
@@ -22,7 +27,9 @@
           <a class="nav-item nav-link active" style="color: #fff;" data-target="#register" data-toggle="modal">Contact</a>
         </div>
     </nav>
+    <!--End Navigation Bar-->
 
+    <!--Home Section-->
     <div id="home">
         <div class="container">
             <div class="text-center">
@@ -48,50 +55,44 @@
           </p>
       </strong>
     </div>
-    <div class="contain">
-      <div class="container" id="about">
-        <div class="row">
-          <div class="col" style="border-right: 1.5px solid black; height: 25vw;">
-            <div class="my-5">
-              <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="./Images/headshot.jpg" alt="UNABLE TO LOAD IMAGE.">
-              </div>
-            </div>
+    <!--End Home Section-->
+
+    <!--About Section-->
+    <div class="contain" id="about">
+      <div class="container">
+        <div class="my-5">
+          <h2>About</h2>
+          <div>
+            <img class="card-img-top my-5" src="./Images/headshot.jpg" alt="UNABLE TO LOAD IMAGE.">
           </div>
-          <div class="col">
-            <div class="my-5" id="github">
-              <h2>About</h2>
-              <div class="card">
-                  <div class="card-body">
-                    My name is Ryan Spears. I am a current student at The Tech Academy. Currently, I'm enrolled in the Software Developer Bootcamp.<br>
-                  </div>
+          <div>
+              <div class="aboutTxt my-5">
+                My name is Ryan Spears. I am a current student at <a href="https://www.learncodinganywhere.com/" target="_blank" rel="noopener noreferrer">The Tech Academy</a>. Currently, I'm enrolled in the Software Developer Bootcamp.<br>
+                When I graduate, I will be trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL,<br> 
+                Python, C# and more.
               </div>
-            </div>
           </div>
         </div>
       </div>
+      <!--End About Section-->
       <hr>
-      <div class="container my-5">
-        <div id="github">
-          <div class="row">
-            <div class="col" style="border-right: 1.5px solid black; height: 25vw;">
-              <h2>Github</h2>
-              <div class="card">
-                <div class="card-body">
-                  Be sure to check out my GitHub Account!<br>
-                  <a href="https://github.com/ryanwspears" target="_blank" rel="noopener noreferrer" class="badge">Click Here!</a>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="./Images/github-logo.png" alt="UNABLE TO LOAD IMAGE.">
-              </div>
-            </div>
+      <!--Github Section-->
+      <div class="container my-5" id="github">
+        <div>
+          <h2>Github</h2>
+          <div>
+            <img class="card-img-top2 my-5" src="./Images/github-logo.png" alt="UNABLE TO LOAD IMAGE.">
+          </div>
+          <div class="hubTxt my-5">
+            Be sure to check out my <a href="https://github.com/ryanwspears" target="_blank" rel="noopener noreferrer">GitHub Account!</a><br>
+            You can take a look at all of my projects that I've completed, or take a peek at what I'm currently working on.
           </div>
         </div>
       </div>
     </div>
+    <!--End Github Section-->
+
+    <!--Pop-Up Contact Form-->
     <div class="modal" tabindex="-1" role="dialog" id="register">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -129,10 +130,13 @@
           </div>
         </div>
     </div>
+    <!--End Pop-Up Contact Form-->
 
+    <!--Fixed Contact Btn-->
     <div class="btnDiv">
-      <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#register" id="btnCon">Contact Us</button>
+      <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#register" id="btnCon">Contact</button>
     </div>
+    <!--End Fixed Contact Btn-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
