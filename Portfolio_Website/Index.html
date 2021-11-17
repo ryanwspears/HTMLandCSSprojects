@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/Portfolio_Website_CSS.css">
 
-    <title>Ryan Spears</title>
+    <title>Portfolio - Ryan Spears</title>
 
     <script src="./JS/Portfolio_Website_JS.js"></script>
 
@@ -19,15 +19,27 @@
   </head>
   <body>
     <!--Navigation Bar-->
-    <nav class="navbar fixed-top navbar-expand-lg mb-4">
-        <div class="navbar-nav">
+    <div class="fixed-top">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <h5 class="text-white h4">Ryan Spears</h5>
           <a class="nav-item nav-link active" style="color: #fff;" href="#home">Home</a>
           <a class="nav-item nav-link active" style="color: #fff;" href="#about">About</a>
           <a class="nav-item nav-link active" style="color: #fff;" href="#github">Github</a>
           <a class="nav-item nav-link active" style="color: #fff;" data-target="#register" data-toggle="modal">Contact</a>
         </div>
-    </nav>
+      </div>
+      <nav class="navbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="line"></span> 
+          <span class="line"></span> 
+          <span class="line"></span>
+        </button>
+      </nav>
+    </div>
     <!--End Navigation Bar-->
+
+    
 
     <!--Home Section-->
     <div id="home">
@@ -60,7 +72,7 @@
     <!--About Section-->
     <div class="contain" id="about">
       <div class="container">
-        <div class="my-5">
+        <div>
           <h2>About</h2>
           <div>
             <img class="card-img-top my-5" src="./Images/headshot.jpg" alt="UNABLE TO LOAD IMAGE.">
@@ -134,7 +146,7 @@
 
     <!--Fixed Contact Btn-->
     <div class="btnDiv">
-      <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#register" id="btnCon">Contact</button>
+      <button type="button" class="btn" data-toggle="modal" data-target="#register" id="btnCon">Contact</button>
     </div>
     <!--End Fixed Contact Btn-->
 
